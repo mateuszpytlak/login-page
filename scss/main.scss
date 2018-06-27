@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import "./components/_login-container.scss";
+@import "./components/_form.scss";
+@import "./components/_footer.scss";
+@import "./components/_checkbox.scss";
+@import "./components/_tooltips.scss";
+@import "./components/_forgotten.scss";
+@import "./components/_media.scss";
+
+//-----BASIC RESET
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+//-----------------
+
+body {
+  background: url(../../assets/images/background-alternate.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: 'Lato', sans-serif;
+}
+
+[data-reactroot] {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

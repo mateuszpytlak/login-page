@@ -1,0 +1,56 @@
+div.login-forgotten {
+  height: 255px;
+  background: #F9F9F9;
+  border-bottom: 1px solid #ACACAC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.login-forgotten-container {
+  margin-top: 30px;
+  width: 80%;
+}
+
+div.login-forgotten-message {
+  font-size: 13px;
+  color: #7D7D7D;
+}
+
+div.login-forgotten-container label {
+  display: block;
+  margin-top: 60px;
+}
+
+div.login-forgotten-container input {
+  display: inline-block;
+  width: 100%;
+}
+
+div.login-submit-forgotten {
+  height: 90px;
+  background: #E5E5E5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.login-submit-forgotten div.container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+button.login-submit-reset {
+  width: 170px;
+  margin-right: 0;
+}
+
+div.logged {
+  height: 255px;
+  background: #F9F9F9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

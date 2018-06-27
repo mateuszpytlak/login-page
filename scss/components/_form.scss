@@ -1,0 +1,68 @@
+form.login-form {
+  height: 255px;
+  background: #F9F9F9;
+  border-bottom: 1px solid #ACACAC;
+}
+
+form.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.login-form-input-container {
+  width: 85%;
+  height: 255px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  color: #919191;
+}
+
+label#email {
+  margin-top: 25px;
+}
+
+input {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #ACACAC;
+  margin-top: 5px;
+  height: 45px;
+  box-shadow: inset 0px 0px 5px 1px rgba(184, 184, 184, 1);
+  padding: 3px 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #B8B8B8;
+  font-weight: 600;
+  background: url(../../assets/images/star_new.png) no-repeat top right;
+  position: relative;
+}
+
+input::placeholder {
+  font-family: 'Montserrat', sans-serif;
+  color: #B8B8B8;
+  font-weight: 600;
+}
+
+input[type="password"] {
+  margin-bottom: 0;
+}
+
+label#password {
+  margin-top: 24px;
+}
+
+div.login-form-input-container-checkbox-container {
+  display: flex;
+}
+
+div.login-form-input-container-checkbox-container input {
+  display: inline;
+}

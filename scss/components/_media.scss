@@ -1,0 +1,14 @@
+@media (max-width: 1200px) {
+  section.login {
+    width: 50%;
+  }
+}
+
+@media (max-width: 900px) {
+  section.login {
+    width: 80%;
+  }
+  div.login-logo-container {
+    left: 125px;
+  }
+}
