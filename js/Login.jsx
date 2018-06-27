@@ -57,7 +57,7 @@ export class Login extends React.Component {
                 <section className="login">
                     <header>
                         <div className="login-logo">
-                            <div className="login-logo-container"><img src="../assets/images/twitter_logo_large.jpg"
+                            <div className="login-logo-container"><img src="assets/images/twitter_logo_large.jpg"
                                                                        alt="Kinght Rider"/></div>
                         </div>
                     </header>
@@ -96,7 +96,7 @@ export class Login extends React.Component {
                 <section className="login">
                     <header>
                         <div className="login-logo">
-                            <div className="login-logo-container"><img src="../assets/images/twitter_logo_large.jpg" alt=""/></div>
+                            <div className="login-logo-container"><img src="assets/images/twitter_logo_large.jpg" alt=""/></div>
                         </div>
                     </header>
                     <div className="login-forgotten">
@@ -123,7 +123,7 @@ export class Login extends React.Component {
                 <section className="login">
                     <header>
                         <div className="login-logo">
-                            <div className="login-logo-container"><img src="../assets/images/twitter_logo_large.jpg" alt=""/></div>
+                            <div className="login-logo-container"><img src="assets/images/twitter_logo_large.jpg" alt=""/></div>
                         </div>
                     </header>
                     <div className="logged">
